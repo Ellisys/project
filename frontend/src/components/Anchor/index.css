@@ -1,0 +1,27 @@
+.anchor-position {
+    position: absolute;
+    right: 3%;
+    top: 18px;
+}
+
+.anchor-position svg {
+    margin-right: 4px;
+}
+
+.anchor-position a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.anchor-position span {
+    display: none;
+}
+
+@media (min-width:614px) {
+    .anchor-position span {
+        display: initial;
+    }
+}
